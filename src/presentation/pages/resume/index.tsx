@@ -10,7 +10,7 @@
 
 import React from 'react';
 import {Image, StatusBar, StyleSheet, Text, View} from 'react-native';
-const foto = require('../assets/foto-perfil-michel.jpg');
+const foto = require('../../../assets/foto-perfil-michel.jpg');
 
 const Resume = () => {
   return (
