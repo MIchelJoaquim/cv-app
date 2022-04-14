@@ -10,7 +10,9 @@
 
 import React from 'react';
 import {Image, StatusBar, StyleSheet, Text, View} from 'react-native';
+import List from '../../components/list';
 import SocialNetwork from './components/SocialNetwork';
+import data from './resume.types';
 const foto = require('../../../assets/foto-perfil-michel.jpg');
 
 const Resume = () => {
@@ -33,7 +35,9 @@ const Resume = () => {
           </Text>
           <SocialNetwork />
         </View>
-        <View style={styles.cardContainer} />
+        <View style={styles.cardContainer}>
+          <List data={data} />
+        </View>
       </View>
     </>
   );

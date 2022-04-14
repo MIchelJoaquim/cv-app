@@ -1,4 +1,6 @@
-const data = [
+import {dataList} from '../../components/list/list.types';
+
+const data: dataList[] = [
   {
     key: '139010913',
     title: 'Programador FrontEnd',
