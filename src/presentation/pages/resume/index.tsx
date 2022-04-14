@@ -10,6 +10,7 @@
 
 import React from 'react';
 import {Image, StatusBar, StyleSheet, Text, View} from 'react-native';
+import SocialNetwork from './components/SocialNetwork';
 const foto = require('../../../assets/foto-perfil-michel.jpg');
 
 const Resume = () => {
@@ -30,6 +31,7 @@ const Resume = () => {
           <Text style={{color: '#555'}}>
             Javascript | ReactJS | React Native | MySql | MongoDB
           </Text>
+          <SocialNetwork />
         </View>
         <View style={styles.cardContainer} />
       </View>
